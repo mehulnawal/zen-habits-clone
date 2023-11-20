@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zen habits</title>
+    <link rel="icon" href="logo-img.png" >
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap'); */
+body {
+    font-size: 1rem;
+}
+.header, .section2, .footer {
+    line-height: 1.6;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* nab bar */
+.nav
+{
+    display: flex;
+    color: #777;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 400;
+    height: 108px;
+    /* max-width: 70em; */
+    /* padding:0 2em; */
+    border-bottom: 1px solid #f5f5f5;
+    text-transform: none;
+    font-size: 18px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav :hover
+{
+    color: #333;
+}
+.cName
+{
+    font-weight: bold;
+    margin: 0 auto;
+}
+.breathe
+{
+    margin: 0 auto;
+}
+.nav-items ul
+{
+    display: flex;
+}
+.nav-items ul li a 
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #777;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.nav-items ul li a:hover
+{
+    color: #333;
+}
+.nav-items ul li 
+{
+    margin: 23px;
+    list-style: none;
+}
+
+
+/* header */
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em auto;
+    /* padding: 0 2.5em; */
+    width: 40em;
+    
+    gap: 36px;
+    
+}
+.first a
+{
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first a:hover
+{
+    color: #aaa;
+    transition: all .3s linear;
+}
+.second
+{
+    /* text-decoration: underline; */
+    cursor: pointer;
+    font-size: 14px;
+    color: #aaa;
+}
+.stwo a
+{
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 7px;
+}
+.stwo a:hover
+{
+    transition: all .3s linear;
+    color: #353434;
+
+    /* text-decoration-color: #333; */
+}
+.third
+{
+    display: flex;
+    flex-direction: column;
+    width:  33em;
+    gap: 20px;
+    font-size: 18px;
+    /* height: 98%; */
+    /* line-height: 40px; */
+    padding: 0 2px;
+}
+
+/* seciotn2 */
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.secOne
+{
+    font-size: 27px;
+    gap: 20px;
+    gap: 36px;
+    margin: 20px;
+}
+.secTwo
+{
+    display: flex;
+    flex-direction: column;
+    width:  33em;
+    gap: 20px;
+    font-size: 18px;
+    /* height: 98%; */
+    /* line-height: 40px; */
+    padding: 0 2px;
+}
+.more
+{
+    margin-top: auto;
+    font-size: 27px;
+    text-align: center;
+    color:#aaa;
+    cursor: pointer;
+}
+.more:hover
+{
+    color: #333;
+    transition: all .3s linear;
+}
+
+/* Header 2 - blue box */
+.header2
+{
+    min-width: 1300px;
+    height: auto;
+    height: 641.1px;
+    background-color: #d3e4f0;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.header2 img 
+{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 250px;
+    max-width: 100%;
+    /* padding: 3px; */
+    margin-left: 100px;
+}
+.text
+{
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+    align-items:center;
+}
+.txt-one-one
+{
+    font-weight: 700;
+    font-size: 24px;
+    color: #4d4d4d;
+}
+.txt-one-two
+{
+    font-weight: 400;
+    font-size: 24px;
+}
+.txt-two
+{
+    font-weight: 700;
+    font-size: 33px;
+}
+.txt-three
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.txt-four
+{
+    font-weight: 300;
+    font-size: 16px;
+
+}
+.txt-five
+{
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+.txt-six
+{
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+.txt-seven
+{
+    font-weight: 700;
+    font-size: 16px;
+}
+.txt-eight
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.txt-eight input, button
+{
+    font-weight: 400;
+    border: 2px solid transparent;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.txt-eight input
+{
+    font-weight: 700;
+    /* height: 12px; */
+    width:400px;
+    height: 45px;
+    padding: 12px;
+    /* text-align: center; */
+    
+    
+}
+.txt-eight button
+{
+    font-weight: 700;
+    margin-left:22px;
+   /* margin: auto 22px; */
+    padding: 12px 24px;
+    background-color: #5e5f5e;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.txt-eight button:hover
+{
+     transition: all 300ms ease-in-out;
+     background-color:#4d4d4d;
+}
+
+.txt-nine
+{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px)
+{
+    .header2
+    {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+}
+
+/* footer */
+
+.footer
+{
+    /* max-width: 70em; */
+    background-color: #f5f5f5;
+    height: 639px;
+    /* width: 234px; */
+    width: 100%;
+    padding: 2.5em 0;
+    /* width:100%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.fotone
+{
+    /* margin-top: 10px; */
+    font-weight: 300;
+    font-size: 27px;
+}
+.fottwo
+{
+    font-weight: 300;
+    font-size: 27px;
+    color: #aaaaaa;
+}
+.fotthree
+{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+    /* height: 120px; */
+    /* width: 304px; */
+    /* height: ; */
+    /* padding: 45px 30px; */
+    /* gap: 121px; */
+}
+
+.box1, .box2, .box3 {
+    border: 1px solid transparent; 
+    /* border-bottom-color: rgb(51, 51, 51); */
+    background-color: #fff;
+    padding: 10px; 
+    color:#333333 ;
+     margin: 0 18px;
+    display: flex;
+    height:  250px ;
+    width:380px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.box1 img,  .box2 img
+{
+    height: 30px;
+}
+.box1:hover, .box2:hover, .box3:hover
+{
+    box-shadow: 0 20px 15px 6px rgba(0, 0, 0, 0.10);
+    transition: all .3s linear;
+   
+}
+.fotthree a
+{
+    font-size: 18px;
+    text-decoration: none;
+}
+.fotthree a:hover
+{
+    color: #aaa;
+    transition: all .3s linear;
+}
+
+/* .box1, .box2, .box3
+{
+    min-height: 8em;
+    min-width: 16em;
+} */
+.fotfour
+{
+    font-weight: 400;
+    font-size: 18px;
+}
+.fotfive 
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.fotfive a 
+{   
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    /* color: black; */
+    color: #777777;
+    text-decoration: none;
+}
+.copy , .policy
+{
+    font-weight: 300;
+    font-size: 18px;
+}
+.copy a , .policy a 
+{
+     text-decoration: none;
+     color: black;
+     color: #aaaaaa;
+}
+.copy a:hover , .policy a:hover
+{
+    color: #333;
+}
+@media (max-width: 1100px) 
+{
+    body
+    {
+        text-align: center;
+    }
+    .footer
+    {
+        width: 100%;
+    }
+    .box1, .box2, .box3
+    {
+        width:250px;
+        margin: 0 10px;
+    }
+
+}
+@media (min-height:0px) and (max-width:800px)
+{
+    
+    .nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+   .header2 {
+        /* flex-direction: column;  */
+        /* min-width: auto; Remove the minimum width restriction */
+        height: auto; /* Allow the height to adjust based on content */
+    }
+    .header
+    {
+        margin-left: 450px;
+        height: auto;
+        width: auto;
+    }
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-left: 450px;
+        width: 100%;
+        align-items: center; /* Add this line */
+    }
+    .fotthree
+    {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+   
+}
+/* Example of a simple hamburger menu
+@media screen and (max-width: 800px) {
+    .nav-items ul {
+        display: none;
+    }
+
+    .nav-items.active ul {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+@media (min-width:0px)
+{
+    
+}
+/* 
+@media (max-width: 480px) {
+    .box1, .box2, .box3 {
+        flex-basis: calc(100% - 20px);
+    }
+} */
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="cName">zen habits</div>
+        <div class="nav-items">
+            <ul>
+                <li><a href="training.html">training</a></li>
+                <li><a href="podcast.html">podcast</a></li>
+                <li><a href="books.html">books</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="speaking.html">speaking</a></li>
+                <li><a href="archives.html">archives</a></li>
+            </ul>
+        </div>
+        <div class="breathe">breathe</div>
+    </nav>
+
+    <header class="header">
+        <div class="links">
+            <div class="first">
+            <a class="one-one" href=" https://zenhabits.net/still-behind/" target="_blank"> Transforming the Constant Feeling </a>
+            <a class="one-two" href="https://zenhabits.net/still-behind/" target="_blank">of Being Behind</a>
+            </div>
+        </div>
+        <div class="second">
+            <span class="sone">
+                BY
+            </span>
+            <span class="stwo">
+
+                 <a href="LEO BABAUTA">LEO BABAUTA</a>
+            </span>
+
+        </div>
+        <div class="third">
+            <span>
+
+                You start the day with the feeling: there's a bunch of things I need to do right away.
+            </span>
+            <span>
+
+                Then the rest of the day, you're driven by the feeling that there's so much to do, and you're behind on it all.
+            </span>
+            <span>
+
+                You finish the day with the same feeling, and it carries over until tomorrow.
+            </span>
+            <span>
+                The constant feeling of being behind — it's something so many people can relate to. So what can we do about it?
+
+            </span>
+            <span>
+                What we usually do is either be driven, driven, driven by this fear … or we conclude that we need to abandon everything and start with a fresh slate. With this fear, it can feel like these are the only two options.
+
+            </span>
+            <span>
+                But there are actually many more options. For example, you could turn it into a game, and play. You could think of every activity you do as a gift. You could create art out of all the things on your plate. You could create a vision that's so much bigger than your tasks and their deadlines.
+
+            </span>
+            <span>
+
+                You could find transcendence.
+            </span>
+            <span>
+
+                Let's explore how to transform the feeling that you're behind on everything.
+            </span>
+
+        </div>
+        <div class="section2">
+            <div class="secOne">
+                Examine the Belief
+            </div>
+            <div class="third">
+                <span>
+                    Before we move beyond the current fear, it’s important to slow down, and examine what’s going on. Otherwise we’re just trying to rush past something we think sucks, and we miss the spiritual moment available to us here.
+                </span>
+                <span>
+                    The spiritual moment is first to slow down and feel what it feels like. What is present for you, as direct experience in your body, when you feel behind on everything? How does it feel? Give yourself a minute to just be with that, giving it some attention.
+                </span>
+                <span>
+                    Next, you might notice what belief you have that makes you feel behind. Where does the idea that you’re behind come from? Sometimes it’s external: other people set deadlines for you and you haven’t met them. But more often it’s internal: we have an idea that we should have an empty inbox and a task list that’s all done. That’s pretty much never going to be true, so this expectation will always cause stress.
+                </span>
+                <span>
+                    Is this a helpful expectation, that you should be done with everything and have an empty inbox?
+                </span>
+            </div>
+        </div>
+         <div class="section2">
+            <div class="secOne">
+                Find a New View That Transcends
+            </div>
+            <div class="third">
+                <span>
+                    If you’re ready to move beyond, then you might think of a view of the situation that’s much bigger than this game you’re playing to have a finished task list and empty inbox. That’s a small game.
+                </span>
+                <span>
+                    What’s bigger? What about playing for meaning? What about serving others? What about having an experience of awe and joy?
+                </span>
+                <span>
+                   So maybe you decide that your mission today is to create as much meaning as you can find. What can you do right now that’s meaningful? What would light you up, or move your soul?
+                </span>
+                <span>
+                    Choose something bigger, and the game of being finished with everything starts to fall away.
+                </span>
+            </div>
+            </div>
+             <div class="section2">
+            <div class="secOne">
+                Practicing with the Transcendent View
+            </div>
+            <div class="third">
+                <span>
+                    That’s all fine in theory, but in practice we’ll constantly get pulled back into the old view. Start to notice when you feel behind. Slow down and be with that feeling again, like being with an old friend.
+                </span>
+                <span>
+                    Then practice your bigger view. What can you do right now from that bigger view? Try to stay connected to it as you do the next thing. Remember that you’re playing that bigger game, and feel the meaning behind it, or the joy and awe.
+                </span>
+                <span>
+                   One moment at a time, transcend the smaller view into something more profound.
+                </span>
+            </div>
+        </div>
+        <span class="more">
+            See all posts &gt;&gt;
+        </span>
+    </header>
+    <div class="header2">
+        <div class="image">
+            <img src="blue-section-img.png" alt="Three-Pillares-img">
+        </div>
+        <div class="text">
+            <span class="txt-one">
+                <span class="txt-one-one">
+                    // Free Training
+                </span>
+                <span class="txt-one-two">
+                    from Zen Habit's Founder, Leo Babauta
+                </span> 
+            </span>
+            <span class="txt-two">
+                The 3 Pillars of Fearless Living
+            </span>
+            <span class="txt-three">
+                Inside you'll find...
+            </span>
+            <span class="txt-four">
+                💥 A simple habit assessment + three steps for making change in your life.
+            </span>
+            <span class="txt-five">
+                ​💥 The Fearless Action Method for finding your purpose.
+            </span>
+            <span class="txt-six">
+                💥 How to train in the uncertainty of hard tasks.
+            </span>
+            <span class="txt-seven">
+                Join 2,000,000+ breath-taking readers
+            </span>
+            <span class="txt-eight">
+                <div class="input"><input type="text" placeholder="Your email address"></div>
+                <div class="button"><button type="button">Get Access</button></div>
+            </span>
+            <span class="txt-nine">
+                Zen Habits has twice been named one of the Top 25 blogs by Time Magazine.
+            </span>    
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fotone">Life-changing training programs and live experiences
+        </div>
+        <div class="fottwo">from Zen Habits:</div>
+        <div class="fotthree">
+            <div class="box1">
+                <div class="link">
+                    <a href=""><img src="fearless1.png" alt="Fearless-Habits"></a>
+                 </div>   
+                 
+                 <div class="box-txt">
+                    <div class="hone"><a href="https://ignite.zenhabits.net/fla-founders">Tranformation</a></div>
+                    <div class="htow"><a href="https://ignite.zenhabits.net/fla-founders">One change at a time</a></div>
+                </div>
+            </div>
+            
+            <div class="box2">
+                <div class="link">
+                    <a href=""><img height="20px" src="fearless2.png" alt="Fearless-Habits"></a>
+                 </div>   
+                 
+                 <div class="box-txt">
+                    <div class="hone"><a href="https://ignite.zenhabits.net/fla-founders">Open to something </a></div>
+                    <div class="htow"><a href="https://ignite.zenhabits.net/fla-founders">Meaningful</a></div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="link">
+                    <a href=""><img src="fearless3.png" alt="Fearless-Habits"></a>
+                 </div>   
+                 
+                 <div class="box-txt">
+                    <div class="hone"><a href="https://ignite.zenhabits.net/fla-founders">Cultivate Deep Focus</a></div>
+                    <div class="htow"><a href="https://ignite.zenhabits.net/fla-founders">in the face of Resistance</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fotfour">Join 2,000,000 breath-taking readers:</div>
+        <div class="fotfive">
+            <div class="twi"><a href="https://twitter.com/zen_habits" target="_blank">twitter</a></div>
+            <div class="face"><a href="https://www.facebook.com/groups/OfficialZenHabits/" target="_blank">facebooks</a></div>
+            <div class="insta"><a href="https://www.instagram.com/officialzenhabits" target="_blank">instagram</a></div>
+        </div>
+        <div class="copy"><a href="https://zenhabits.net/uncopyright/" target="_blank">uncopyright</a></div>
+        <div class="policy"><a href="https://zenhabits.net/privacy/" target="_blank">privacy policy</a></div>
+    </div>
+</body>
+</html>
